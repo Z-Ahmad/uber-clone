@@ -23,8 +23,12 @@ function Navbar(){
       </div>
 
       <div className="flex items-center space-x-4 text-sm font-light ml-10">
-        <button>Log In</button>
-        <button>Sign Up</button>
+        <button 
+        className="rounded-full bg-black text-white px-3"
+        >
+          Log In
+        </button>
+        <button className="rounded-full bg-white text-black px-3 py-2">Sign Up</button>
       </div>
     </header>
   );
